@@ -25,7 +25,7 @@ export default function ResumeEditor() {
 
     const data = await response.json();
 
-    // THIS IS THE NEW LINE - IT WILL SHOW US THE AI'S RESPONSE
+
     console.log('Data received from API:', data); 
 
     if (!response.ok) throw new Error(data.error || 'An unknown error occurred');
